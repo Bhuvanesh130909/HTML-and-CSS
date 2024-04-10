@@ -1,0 +1,40 @@
+<script>
+   
+    
+    rectangle=w*h;
+    triangle=(1/2)*b*h;
+    function type1()
+    {
+        let a=parseInt(prompt("Enter the side of Squre"))
+        square=a*a
+        console.log(square)
+
+    }
+    function type2(r)
+    {
+        circle=Math.PI*r*r
+        console.log(circle)
+    }
+    function type3()
+    {
+        let a=parseInt(prompt("Enter the length of rectangle"))
+        let b=parseInt(prompt("Enter the breadh of rectangle"))
+        rectangle=a*b
+        return rectangle
+    }
+    function type4(base,height)
+    {
+        triangle=0.5*base*height
+        return triangle
+    }
+    type1()
+    let r=parseInt(prompt("Enter the radius"))
+    type2(r)
+    rectangle=type3()
+    
+
+
+    
+    
+    
+</script>
